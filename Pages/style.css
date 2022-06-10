@@ -14,7 +14,12 @@ nav {
 
 nav li {
     display: inline;
-    padding: 50px;
+    margin: 25px;
+    padding: 0px 20px 0px 20px;
+    /* padding: 25px; */
+    font-weight: bolder;
+    letter-spacing: 1px;
+    /* text-transform: uppercase; */
 }
 
 h1 {
