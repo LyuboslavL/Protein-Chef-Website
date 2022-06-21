@@ -1,9 +1,49 @@
-header img {
+/* header img {
     border-radius: 10px;
     width: 75%;
     height: auto;
-
 }
+
+header img:nth-of-type(2) {
+    width: 20%;
+    float: right;
+    margin-top: -250px;
+    margin-right: 52px;
+} */
+
+.flex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#mainPhoto {
+    flex: 2;
+    border-radius: 10px;
+    flex-basis: 70%;
+    margin-right: 10px;
+}
+
+#quote {
+    flex: 1;
+    background-color: rgb(171, 171, 171);
+    flex-basis: 10%;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* margin-right: 15px; */
+}
+
+#cartoonPhoto {
+    width: 13%;
+    position: relative;
+    top: 273px;
+    right: 200px;
+}
+
 
 body {
     margin: 10px;
@@ -16,7 +56,7 @@ nav {
     /* background: rgb(78, 126, 57); */
     margin: 1px auto;
     padding: 1px;
-    width: 80%;
+    width: 100%;
     font-weight: bold;
 }
 
@@ -77,15 +117,12 @@ h1 {
     text-align: center;
 }
 
-aside {
+/* aside {
     background-color: rgb(171, 171, 171);
     border: 1px solid black;
     float: right;
-    /* position: absolute; */
-    padding-left: 25px;
+    padding-left: 57px;
     width: 20%;
-    right: 150px;
-    top: 160px;
     text-align: left;
     border-radius: 10px;
-}
+} */
