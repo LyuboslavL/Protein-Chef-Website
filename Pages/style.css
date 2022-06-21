@@ -32,16 +32,15 @@ header img:nth-of-type(2) {
     border: 1px solid black;
     border-radius: 10px;
     text-align: left;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 15px 20px;
     /* margin-right: 15px; */
 }
 
 #cartoonPhoto {
-    width: 13%;
-    position: relative;
-    top: 273px;
-    right: 200px;
+    width: 17%;
+    position: absolute;
+    top: 420px;
+    right: 20px;
 }
 
 
